@@ -8,6 +8,13 @@ namespace DateAdd
         public DateTime AddDateToInputDate(DateTime date, int day)
         {
             try {
+
+                //string dt = Convert.ToString(date);
+                //string[] dtarr = dt.Split("-");
+                //int iday = Convert.ToInt32(dtarr[0]);
+                //int imnth = Convert.ToInt32(dtarr[1]);
+                //int iyr = Convert.ToInt32(dtarr[2]);
+
                 int iday = date.Day;
                 int imnth = date.Month;
                 int iyr = date.Year;
@@ -123,7 +130,10 @@ namespace DateAdd
 
                 return Convert.ToDateTime(result);
             }
-            catch (Exception ex){ throw ex; }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
             
         }
     }

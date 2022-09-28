@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateAdd", "DateAdd\DateAdd.csproj", "{850B16EF-0CF7-4F66-BDFB-11156577A9CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DateAdd", "DateAdd\DateAdd.csproj", "{850B16EF-0CF7-4F66-BDFB-11156577A9CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateAddTests", "DateAddTests\DateAddTests.csproj", "{0219F7F8-BB9B-431C-B437-BB0BCDFD3E7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{850B16EF-0CF7-4F66-BDFB-11156577A9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{850B16EF-0CF7-4F66-BDFB-11156577A9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{850B16EF-0CF7-4F66-BDFB-11156577A9CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0219F7F8-BB9B-431C-B437-BB0BCDFD3E7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0219F7F8-BB9B-431C-B437-BB0BCDFD3E7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0219F7F8-BB9B-431C-B437-BB0BCDFD3E7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0219F7F8-BB9B-431C-B437-BB0BCDFD3E7B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
